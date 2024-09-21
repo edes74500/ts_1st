@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "The Last Adventure",
+    "genre": "Action",
+    "releaseDate": "2022-01-01T00:00:00.000Z",
+    "lastUpdated": "2023-08-20T12:00:00.000Z",
+    "rating": 4.8,
+    "content": {
+      "title": "Chapter 1",
+      "description": "The beginning of a thrilling adventure.",
+      "img": "image-url.jpg",
+      "auth": ["Author One", "Author Two"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Mystery Island",
+    "genre": "Puzzle",
+    "releaseDate": "2021-06-15T00:00:00.000Z",
+    "lastUpdated": "2023-07-12T09:30:00.000Z",
+    "rating": 4.5,
+    "content": {
+      "title": "Introduction",
+      "description": "A puzzling adventure awaits.",
+      "img": "image-url2.jpg",
+      "auth": ["Author Three"]
+    }
+  }
+]

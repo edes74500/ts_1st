@@ -1,5 +1,6 @@
 let gamesData;
-fetch("../public/data/gamesData.json")
+let gameListDiv = document.getElementById("gameList");
+fetch("../docs/data/gamesData.json")
     .then((response) => response.json())
     .then((data) => {
     gamesData = data;
@@ -27,5 +28,4 @@ fetch("../public/data/gamesData.json")
     .catch((error) => {
     console.error("Error loading the JSON file:", error);
 });
-let gameListDiv = document.getElementById("gameList");
 export {};

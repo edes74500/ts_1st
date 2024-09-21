@@ -5,7 +5,7 @@
 !.gitignore
 
 # Autoriser les dossiers build et public, ainsi que tout leur contenu récursivement
-!/build
-!/build/**
+!/docs
+!/docs/**
 !/public
 !/public/**

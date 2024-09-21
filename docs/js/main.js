@@ -1,6 +1,6 @@
 let gamesData;
 let gameListDiv = document.getElementById("gameList");
-fetch("../docs/data/gamesData.json")
+fetch("./data/gamesData.json")
     .then((response) => response.json())
     .then((data) => {
     gamesData = data;
